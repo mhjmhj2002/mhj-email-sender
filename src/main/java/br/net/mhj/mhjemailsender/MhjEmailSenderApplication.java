@@ -1,0 +1,12 @@
+package br.net.mhj.mhjemailsender;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MhjEmailSenderApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MhjEmailSenderApplication.class, args);
+	}
+}
